@@ -1,0 +1,49 @@
+/*
+ ToDo: Colored text, background, div experimentation, customizable buttons. Try to use everything you learned. 
+*/
+
+body{ 
+    letter-spacing: 2px;
+}
+
+ .description { 
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 20px;
+    font-weight: 100; 
+    margin: 50px 0;
+    text-align: center;
+    background: rgb(85, 212, 157) ;
+}
+
+li{ 
+    margin: 15px;
+}
+
+.image{ 
+    height: auto; 
+    width: 50%;
+    border: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block; 
+    
+}
+
+.list{ 
+    text-align: left;
+    background: rgb(85, 212, 157) ;
+}
+
+h2 { 
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
+}
+
+h1 { 
+    font-weight: 500;
+    font-size: 40px; 
+    text-align: center; 
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
