@@ -6,21 +6,31 @@ body{
     background-color: lightblue;
     letter-spacing: 2px;
 }
-    .one{ 
+    .background{ 
         background-color: rgb(85, 212, 157); 
-        width: 1300px;
+
+    }
+    .block-text{ 
+        width: 650px;
         margin-left: auto; 
         text-align: center;
         margin-right: auto; 
+        margin:100px;
         height:200px;
+    }
+    .one{ 
+        width: 1300px;
+        margin-right: auto; 
+        margin-left: auto; 
+        border:5px solid rgba(255, 255, 255, 0.822);
     }
 
  .description { 
     font-family: Helvetica, Arial, sans-serif; 
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 100; 
     margin: 50px 0;
-    text-align: center;
+    text-align: left;
     background: rgb(85, 212, 157) ;
 }
 
@@ -40,8 +50,12 @@ li{
 }
 
 .list{ 
-    text-align: left;
+    text-align: center;
     background: rgb(85, 212, 157) ;
+}
+
+.top-header-small-text{ 
+    font-size: 25px;
 }
 
 h2 { 
@@ -53,7 +67,7 @@ h2 {
 h1 { 
     font-weight: 500;
     font-size: 75px; 
-    margin:100px;
+    margin:0;
     text-align: center; 
     font-weight: 100;
     font-family: Helvetica, Arial, sans-serif; 
